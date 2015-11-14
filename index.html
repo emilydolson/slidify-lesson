@@ -153,6 +153,23 @@ print &quot;Hello python&quot;
 
 <slide class="" id="slide-6" style="background:;">
   <hgroup>
+    <h2>How can you do this?</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>First, install slidify</p>
+
+<pre><code class="r">require(devtools)
+install_github(&quot;ramnathv/slidify&quot;, &quot;dev&quot;) #Slidify isn&#39;t on CRAN, the normal R package manager, so we have to get it directly from Github. Sometimes this doesn&#39;t go as smoothly on Windows, but don&#39;t worry, the internet can help!
+install_github(&quot;ramnathv/slidifyLibraries&quot;, &quot;dev&quot;)
+library(slidify)
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-7" style="background:;">
+  <hgroup>
     <h2>Interactive Chart</h2>
   </hgroup>
   <article data-timings="">
@@ -320,18 +337,6 @@ print &quot;Hello python&quot;
     };
 </script>
 
-<hr>
-
-<h2>How can you do this?</h2>
-
-<p>First, install slidify</p>
-
-<pre><code class="r">require(devtools)
-install_github(&quot;ramnathv/slidify&quot;, &quot;dev&quot;) #Slidify isn&#39;t on CRAN, the normal R package manager, so we have to get it directly from Github. Sometimes this doesn&#39;t go as smoothly on Windows, but don&#39;t worry, the internet can help!
-install_github(&quot;ramnathv/slidifyLibraries&quot;, &quot;dev&quot;)
-library(slidify)
-</code></pre>
-
   </article>
   <!-- Presenter Notes -->
 </slide>
@@ -372,8 +377,14 @@ library(slidify)
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=6 title='Interactive Chart'>
+        data-slide=6 title='How can you do this?'>
          6
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=7 title='Interactive Chart'>
+         7
       </a>
     </li>
   </ul>
