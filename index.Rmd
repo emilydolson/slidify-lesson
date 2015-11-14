@@ -65,7 +65,7 @@ n1 <- nPlot(Freq ~ Hair, group = 'Eye', type = 'multiBarChart',
 n1$print('chart1')
 ```
 ---
-
+---
 ## How can you do this?
 
 First, install slidify
