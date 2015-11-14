@@ -65,6 +65,7 @@ n1 <- nPlot(Freq ~ Hair, group = 'Eye', type = 'multiBarChart',
 n1$print('chart1')
 ```
 ---
+
 ## How can you do this?
 
 First, install slidify
@@ -75,4 +76,3 @@ install_github("ramnathv/slidify", "dev") #Slidify isn't on CRAN, the normal R p
 install_github("ramnathv/slidifyLibraries", "dev")
 library(slidify)
 ```
----
