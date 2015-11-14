@@ -62,19 +62,6 @@ This is a hint
 *** .explanation
 Since `/Users/backup` is an absolute path, it's okay to pass it to ls despite the fact that we're already there. It's unecessary, though.
 
----
-## How can you do this?
-
-First, install slidify
-
-
-```r
-require(devtools)
-install_github("ramnathv/slidify", "dev") #Slidify isn't on CRAN, the normal R package manager, so we have to get it directly from Github. Sometimes this doesn't go as smoothly on Windows, but don't worry, the internet can help!
-install_github("ramnathv/slidifyLibraries", "dev")
-library(slidify)
-```
-
 --- 
 ## Interactive Chart
 
@@ -241,3 +228,15 @@ library(slidify)
       });
     };
 </script>
+---
+## How can you do this?
+
+First, install slidify
+
+
+```r
+require(devtools)
+install_github("ramnathv/slidify", "dev") #Slidify isn't on CRAN, the normal R package manager, so we have to get it directly from Github. Sometimes this doesn't go as smoothly on Windows, but don't worry, the internet can help!
+install_github("ramnathv/slidifyLibraries", "dev")
+library(slidify)
+```
