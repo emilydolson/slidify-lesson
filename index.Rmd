@@ -70,7 +70,7 @@ n1$print('chart1')
 
 First, install slidify
 
-```{r, eval=FALSE}
+```
 require(devtools)
 install_github("ramnathv/slidify", "dev") #Slidify isn't on CRAN, the normal R package manager, so we have to get it directly from Github. Sometimes this doesn't go as smoothly on Windows, but don't worry, the internet can help!
 install_github("ramnathv/slidifyLibraries", "dev")
