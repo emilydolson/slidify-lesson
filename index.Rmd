@@ -56,15 +56,15 @@ Since `/Users/backup` is an absolute path, it's okay to pass it to ls despite th
 
 --- 
 ## Interactive Chart
-```{r echo = F, results = 'asis'}
-require(rCharts)
+
+```{r, echo = F, results = 'asis'}
+library(rCharts)
 haireye = as.data.frame(HairEyeColor)
 n1 <- nPlot(Freq ~ Hair, group = 'Eye', type = 'multiBarChart',
   data = subset(haireye, Sex == 'Male')
 )
 n1$print('chart1')
 ```
----
 ---
 ## How can you do this?
 

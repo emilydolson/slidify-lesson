@@ -65,10 +65,6 @@ Since `/Users/backup` is an absolute path, it's okay to pass it to ls despite th
 --- 
 ## Interactive Chart
 
-```
-## Loading required package: rCharts
-```
-
 
 <div id = 'chart1' class = 'rChart nvd3'></div>
 <script type='text/javascript'>
@@ -232,7 +228,6 @@ Since `/Users/backup` is an absolute path, it's okay to pass it to ls despite th
       });
     };
 </script>
----
 ---
 ## How can you do this?
 
